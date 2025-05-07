@@ -1,3 +1,95 @@
+# Run Boy - Unity ゼロからの一日チャレンジ！
+# 從零開始挑戰一天學會用Unity！
+# A One-Day Challenge to Learn Unity from Scratch!
+
+簡単な2D横スクロールゲームを作れるのか？Unity初心者の挑戦が始まる！
+
+<img src="video/runboygif.gif" width="600" />
+
+## 使用ツール
+- Unity 6.0 (6000.0.48f1)
+- C#
+- Visual Studio Code
+- Cursor
+- Logic Pro
+- Photopea
+- CapCut
+
+## 使用AIツール
+- ChatGPT（コード作成・デバッグ）
+- Ideogram.ai、Freepik（画像生成）
+- Hailuoai（映像生成）
+- SUNO（BGM生成）
+
+## ゲーム概要
+『Run Boy』は、横スクロール型のジャンプアクションゲームです。  
+プレイヤーはキャラクターを左右に動かし、ジャンプしながら画面右側から出現する足場に飛び乗り、障害物を避けていきます。  
+時間が経つにつれ、画面のスクロール速度が上昇し、プレイヤーの反応力と判断力が試されます。
+
+## 制作動機
+本作は、初めてUnityを使って開発した作品です。  
+ゲームロジック、アニメーション制御、プレイヤー操作、C#スクリプト作成の基礎的な流れを総合的に学ぶことを目的としました。  
+特にキャラクターの**物理的な当たり判定**や**速度制御**に重点を置いています。
+
+## 技術的工夫
+- **アニメーションと当たり判定の調整**：キャラが角や壁に引っかかる現象を修正し、ジャンプや着地の動きをより自然に。
+- **AI素材の活用と加工**：AIで生成した画像をPhotopeaで加工し、CapCutでイントロアニメを作成。
+- **Inspectorの最適化**：パラメータに日本語と中国語の説明を追加し、視認性と作業効率を向上。
+
+## ⚠️ 苦戦ポイントと対処法
+- **VSCodeとUnityの連携エラー**：`.NET SDK`のパス設定に失敗。時間短縮のため、修正は後回しにして開発を優先。
+- **AI素材の生成制限**：無料生成の枚数や画質に限りがあり、Freepikや手作業の加工で対応。
+- **Unityのフォント制限**：日本語や中国語が表示されず、PNG画像に変換したり、.otfの多言語対応フォントを導入して解決。
+
+---
+
+## 📅 開発日記
+
+### Day 1：環境構築地獄
+- ワクワクしながらUnityをインストールした直後、最初のボス「.NET SDKエラー」に遭遇。
+- VSCodeを開くたびにエラー連発、半日格闘しても解決できず。
+- ネットで調べ、パスを再設定し、DevKitを再インストールしてもダメ。
+- 「このままエラーを無視しても開発に支障ないのでは？」と判断し、割り切ってスルー。
+- **MacBook Pro 2017**のレトロな読み込み速度に悩まされながらも、開発の情熱は失われず。
+- 気づけば深夜……Day1終了。
+
+---
+
+### Day 2：素材と画像の大混戦
+- Unityはさすがゲームエンジン。PythonやJavaScriptのようにゲームループを一から書く必要がなくて感動。
+- でも時間が限られているので、画像やアニメをAIツールで一気に作成……が、無料プランの制限に苦しむ。
+- 満足いく素材を作る前に生成回数制限、結局FreepikやPhotopeaで手動修正のループへ突入。
+- Unityが多言語フォントに対応しておらず、文字をPNG化したり、日本語対応フォントを探して導入。
+- 夜になってようやくキャラ画像・背景・アニメ素材が揃ったが、コードは数行だけ……Day2終了。
+
+---
+
+### Day 3：ついに本格開発！
+- ようやくC#スクリプトを書き始め！PythonやJSの経験＋ChatGPTの支援で、論理構成は順調。
+- ジャンプ、落下、スピードアップなどのロジックを組みつつ、Unityの構造にも慣れてきた。
+- ファイル名やオブジェクト名を変更する時はまだ少し不安だったが、Unityは思ったより安定。
+- 得点処理、死亡判定、サウンド切替、アニメ切替などを実装し、ついにシンプルなゲームが完成！
+
+---
+
+## 🏁 結論：チャレンジ成功…ならず！
+今回のテーマは「Unityゲームを1日で完成させる」──**残念ながら失敗！**  
+実際に完成するまでに**3日間**かかってしまいました。
+
+ただし、IDEの構築やAI画像の加工を除けば、ゲームロジックや統合部分は**本当に1日でできる**と感じました！  
+Unity初心者として非常に実りある経験になりました。
+
+👏 最後まで読んでいただき、ありがとうございました！
+
+---
+
+- 
+- 
+- 
+- 
+
+---
+
 # Run Boy - Unity 從零開始挑戰一天學會用Unity
 做一個簡單橫向捲軸遊戲，是否能挑戰成功？
 
@@ -8,7 +100,6 @@
 - C#
 - Visual Studio Code
 - Cursor
-- Git
 - Logic Pro
 - Photopea
 - CapCut
@@ -81,3 +172,94 @@
 👏 謝謝你看到這裡！
 
 ---
+
+- 
+- 
+- 
+- 
+
+---
+
+# Run Boy - A One-Day Challenge to Learn Unity from Scratch
+
+Can a complete Unity beginner build a simple side-scrolling game in just one day?  
+Let’s find out!
+
+<img src="video/runboygif.gif" width="600" />
+
+## 🛠️ Development Tools
+- Unity 6.0 (6000.0.48f1)
+- C#
+- Visual Studio Code
+- Cursor
+- Git
+- Logic Pro
+- Photopea
+- CapCut
+
+## 🤖 AI Tools Used
+- ChatGPT (for coding and debugging)
+- Ideogram.ai, Freepik (for image generation)
+- Hailuoai (for video generation)
+- SUNO (for BGM generation)
+
+## 🎮 Game Overview
+**Run Boy** is a side-scrolling jump action game.  
+Players move left and right and jump onto platforms that keep appearing from the right side of the screen, dodging obstacles along the way.  
+As time goes on, the scroll speed increases, testing your reflexes and decision-making skills.
+
+## 🎯 Motivation
+This was my very first game developed with Unity.  
+The goal was to understand the fundamentals of game logic, animation control, player input handling, and C# scripting.  
+I paid special attention to **physics-based collision handling** and **speed control mechanics**.
+
+## 🧩 Technical Highlights
+- **Animation & Collision Fixes**: Solved corner-stuck and wall-stuck issues for smoother jumping and landing.
+- **AI-Generated Assets**: Images were enhanced in Photopea and used in an intro video made with CapCut.
+- **Inspector Optimization**: Parameters labeled in Chinese and Japanese for better visibility and workflow efficiency.
+
+## ⚠️ Challenges & Solutions
+- **VSCode + Unity Integration Fail**: Couldn’t fix the `.NET SDK` path issue, so I ignored it temporarily and focused on building the game.
+- **AI Asset Limitations**: Faced strict free-use limits, so I combined multiple tools like Freepik and manual editing.
+- **Font Issues in Unity**: Unity didn’t support multi-language fonts (e.g., Japanese/Chinese), so I converted text to PNG or used `.otf` fonts that support them.
+
+---
+
+## 📅 Dev Log
+
+### Day 1: Environment Setup Hell  
+- I started excitedly installing Unity... and immediately hit a major roadblock: a `.NET SDK` error in VSCode.  
+- Spent the whole afternoon tweaking paths and reinstalling DevKit — nothing worked.  
+- Eventually decided: *“Can I just ignore this error for now and see if the game still runs?”* Turns out I could.  
+- My **MacBook Pro 2017** was struggling with load times — slow enough to make instant ramen while it booted — but I powered through.  
+- Day 1 ended deep into the night.
+
+---
+
+### Day 2: Asset and Image Mayhem  
+- Unity is amazing — no need to write your own game loop like with Python or JavaScript.  
+- But I needed assets fast, so I turned to free AI tools to generate characters and backgrounds… only to hit hard usage limits.  
+- Most images weren’t good enough before hitting the cap, so I resorted to manual edits with Freepik and Photopea.  
+- Unity didn’t support non-English fonts, so I converted text into PNGs or searched for `.otf` fonts with Japanese support.  
+- By the end of the night, I finally had character sprites, backgrounds, and animation frames ready… barely any code written yet. Day 2 over.
+
+---
+
+### Day 3: Finally, Real Development  
+- I finally got to write C# scripts!  
+- With past experience in Python and JS, plus ChatGPT support, coding logic like jump, landing, and speed-up went pretty smoothly.  
+- Got more familiar with Unity’s component system and object naming conventions.  
+- Implemented scoring, death conditions, sound switching, and animation transitions — and the game was complete!
+
+---
+
+## 🏁 Conclusion: Did I Succeed?
+The goal was to build a Unity game in **one day** — and the result?  
+**Nope! I failed the challenge!**  
+It actually took me **three full days**.
+
+But if you exclude the IDE setup and AI image processing, the core game logic and integration really *could* be done in a single day.  
+For a Unity newbie, this was an incredibly valuable hands-on experience.
+
+👏 Thanks for reading!
+
